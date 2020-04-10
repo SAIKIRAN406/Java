@@ -8,6 +8,7 @@ public class Test {
 		
 		System.out.println("Application is Testing :");
 		Java8Features.predicatedemo();
+		Java8Features.consumerdemo();
 		System.out.println("Application is Tested Succesfully");
 	
 	}
