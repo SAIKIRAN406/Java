@@ -23,12 +23,20 @@ public class Java8Features {
 		public static void consumerdemo() {
 			List<Integer> list1 = Arrays.asList(1, 2, 3, 4, 5);
          list1.stream().forEach(t -> System.out.println("print Result from Consumer : " + t));
+
 		}
-		/*  This method used for Stashing  */
-                         public static  void m3(){
-                        	System.out.println("Java8Features.m3()");
-	
+		
+		/* This Method is used for Stashing */
+		 public static  void m3(){
+         	System.out.println("Java8Features.m3()");
+
 }
+	
+                        
+
+
+
+
 
 
 }
