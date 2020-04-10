@@ -9,7 +9,6 @@ public class Java8Features {
 
 		predicatedemo();
 		consumerdemo();
-		m3();
 	
 
 	}
@@ -25,12 +24,7 @@ public class Java8Features {
          list1.stream().forEach(t -> System.out.println("print Result from Consumer : " + t));
 
 		}
-		
-		/* This Method is used for Stashing */
-		 public static  void m3(){
-         	System.out.println("Java8Features.m3()");
 
-}
 	
                         
 
